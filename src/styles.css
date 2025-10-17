@@ -71,6 +71,7 @@ h6 {
 	--primary-button-pink: #B68B87;
 	--primary-header-green: #72DA79;
 	--secondary-button-purple: #A38BE9;
+	--secondary-button-purple-hover: #AE95F5;
 	--secondary-header-green: #2FC781;
 }
 
@@ -192,7 +193,118 @@ section img {
 	z-index: -1;
 }
 
-#author-transition img {
-	object-fit: cover;
+#author-transition {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 570px;
+	gap: 5rem;
+	padding: 50px 0px;
+	margin: 0px 0px;
+}
+
+#author-transition .author-bg {
+	position: absolute;
+	object-fit: contain;
 	width: 100%;
+	height: auto;
+	z-index: -1;
+}
+
+#author-information {
+	font-family: "Unkempt", "cursive";
+	flex-direction: column;
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	max-width: 50%;
+	gap: 1.5rem;
+	color: var(--secondary-button-purple);
+}
+
+#author-information a {
+	text-align: center;
+	text-decoration: none;
+	padding: 8px;
+	width: 200px;
+	color: white;
+	background-color: var(--secondary-button-purple);
+	border-radius: 20px;
+}
+
+#author-information a:hover {
+	background-color: var(--secondary-button-purple-hover);
+	cursor: pointer;
+}
+
+#author-information p {
+	text-align: left;
+	max-width: 90%;
+}
+
+#daisys-chickens {
+	position: absolute;
+	top: -635px;
+	right: 560px;
+	width: auto;
+	height: 600px;
+	mix-blend-mode: darken;
+}
+
+#julie-ann-garnett-photo {
+	width: 200px;
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+
+#daisys-delightful-day {
+	margin-top: 15rem;
+	margin-bottom: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+	gap: 5rem;
+	width: 100%;
+}
+
+#book-information {
+	font-family: "Unkempt", "cursive";
+	flex-direction: column;
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	max-width: 50%;
+	gap: 1.5rem;
+	color: var(--secondary-button-purple);
+}
+
+#book-information a {
+	text-align: center;
+	text-decoration: none;
+	padding: 8px;
+	width: 200px;
+	color: white;
+	background-color: var(--secondary-button-purple);
+	border-radius: 20px;
+}
+
+#book-information a:hover {
+	background-color: var(--secondary-button-purple-hover);
+	cursor: pointer;
+}
+
+.wave-container {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.wave-container svg {
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: -1;
 }
