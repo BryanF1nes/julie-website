@@ -79,7 +79,7 @@ h6 {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 300px;
+	height: 150px;
 }
 
 #header-text {
@@ -95,11 +95,104 @@ h6 {
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-img {
+#header>img {
 	position: absolute;
 	top: 0;
 	z-index: -1;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
+
+}
+
+section {
+	height: 800px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#illustrated_julie {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+section img {
+	position: absolute;
+	height: 1200px;
+	width: 100%;
+	z-index: -2;
+	object-fit: cover;
+	object-position: center;
+}
+
+#pivot_point {
+	position: relative;
+	z-index: 1;
+}
+
+#pivot_point img {
+	width: 100%;
+	height: auto;
+}
+
+
+#pivot_point a {
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+}
+
+
+#about_me {
+	position: absolute;
+	top: 0px;
+	left: -50px;
+	height: 150px;
+	width: 150px;
+	z-index: -1;
+}
+
+#contact_me {
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	height: 200px;
+	width: 200px;
+}
+
+#books {
+	position: absolute;
+	top: -50px;
+	left: 180px;
+	height: 200px;
+	width: 200px;
+	z-index: -1;
+}
+
+#parents {
+	position: absolute;
+	bottom: 0px;
+	left: -100px;
+	height: 150px;
+	width: 150px;
+	z-index: -1;
+}
+
+#events {
+	position: absolute;
+	bottom: -20px;
+	left: 220px;
+	height: 150px;
+	width: 150px;
+	z-index: -1;
+}
+
+#author-transition img {
+	object-fit: cover;
+	width: 100%;
 }
