@@ -348,6 +348,10 @@ section img {
 	font-size: 18px;
 }
 
+.nav-links {
+	cursor: pointer;
+}
+
 .footer-icons {
 	width: 80%;
 	display: flex;
