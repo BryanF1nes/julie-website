@@ -13,3 +13,10 @@ body.append(bannerEl, navEl, footerEl);
 
 HomePage(navEl);
 
+const links = document.querySelectorAll(".nav-links");
+console.log(links);
+
+links.forEach((link) => {
+	link.addEventListener("click", () => console.log("HELLO"));
+});
+
