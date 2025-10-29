@@ -49,7 +49,7 @@ h6 {
 
 p {
 	text-wrap: pretty;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 h1,
@@ -271,6 +271,19 @@ section img {
 	width: 100%;
 }
 
+#book-image {
+	position: relative;
+}
+
+#bookfest-award {
+	position: absolute;
+	height: auto;
+	width: 100px;
+	bottom: -30px;
+	right: -30px;
+	z-index: 2;
+}
+
 #book-information {
 	font-family: "Unkempt", "cursive";
 	flex-direction: column;
@@ -332,7 +345,7 @@ section img {
 	margin: 0 15px;
 	color: white;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .footer-icons {
